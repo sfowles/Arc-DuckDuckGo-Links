@@ -31,18 +31,19 @@ function createLink(symbol, name, url) {
   li.classList.add('zcm__item');
 
   const a = document.createElement('a');
+  a.setAttribute('data-zci-link', name);
   a.classList.add('zcm__link');
 
   const icon = document.createElement('span');
   icon.innerText = symbol;
-  icon.style.marginRight = '0.5em';
   icon.style.fontWeight = 'bold';
+  icon.classList.add('zcm__link__icon');
 
   li.append(a);
   a.append(icon);
   a.append(name);
-
   a.setAttribute('href', url);
+  
   return li;
 }
 
