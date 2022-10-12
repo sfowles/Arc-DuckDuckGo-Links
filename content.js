@@ -46,11 +46,6 @@ function createLink(symbol, name, url) {
   return li;
 }
 
-const arcLinks = document.querySelectorAll('.arc-links');
-arcLinks.addEventListener('mouseover', () => {
-  a.style.color = '#fff';
-});
-
 function addLink(symbol, name, url) {
   const link = createLink(symbol, name, url);
   document.querySelector('#duckbar_static').appendChild(link);
