@@ -1,4 +1,4 @@
-# Custom DuckDuckGo search results in Arc browser
+# Custom DuckDuckGo search links in Arc browser
 
 This is a Boost for [Arc Browser](https://arc.net/) that lets you add custom links to the search results in DuckDuckGo.
 
